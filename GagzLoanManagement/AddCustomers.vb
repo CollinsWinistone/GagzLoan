@@ -20,4 +20,8 @@ Public Class AddCustomers
     Private Sub AddCustomers_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
     End Sub
+
+    Private Sub custId_TextChanged(sender As Object, e As EventArgs) Handles custId.TextChanged
+
+    End Sub
 End Class
