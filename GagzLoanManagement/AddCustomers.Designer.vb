@@ -41,122 +41,136 @@ Partial Class AddCustomers
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(254, 26)
+        Me.Label1.Location = New System.Drawing.Point(203, 21)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(235, 25)
+        Me.Label1.Size = New System.Drawing.Size(194, 20)
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "Add New Customer to Gagz"
         '
         'username
         '
-        Me.username.Location = New System.Drawing.Point(325, 102)
+        Me.username.Location = New System.Drawing.Point(260, 82)
+        Me.username.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.username.Name = "username"
-        Me.username.Size = New System.Drawing.Size(150, 31)
+        Me.username.Size = New System.Drawing.Size(121, 27)
         Me.username.TabIndex = 1
         '
         'phone
         '
-        Me.phone.Location = New System.Drawing.Point(325, 144)
+        Me.phone.Location = New System.Drawing.Point(260, 115)
+        Me.phone.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.phone.Name = "phone"
-        Me.phone.Size = New System.Drawing.Size(150, 31)
+        Me.phone.Size = New System.Drawing.Size(121, 27)
         Me.phone.TabIndex = 2
         '
         'custLocation
         '
-        Me.custLocation.Location = New System.Drawing.Point(325, 195)
+        Me.custLocation.Location = New System.Drawing.Point(260, 156)
+        Me.custLocation.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.custLocation.Name = "custLocation"
-        Me.custLocation.Size = New System.Drawing.Size(150, 31)
+        Me.custLocation.Size = New System.Drawing.Size(121, 27)
         Me.custLocation.TabIndex = 3
         '
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(229, 104)
+        Me.Label2.Location = New System.Drawing.Point(183, 83)
+        Me.Label2.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(89, 25)
+        Me.Label2.Size = New System.Drawing.Size(73, 20)
         Me.Label2.TabIndex = 4
         Me.Label2.Text = "username"
         '
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(229, 144)
+        Me.Label3.Location = New System.Drawing.Point(183, 115)
+        Me.Label3.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(63, 25)
+        Me.Label3.Size = New System.Drawing.Size(51, 20)
         Me.Label3.TabIndex = 5
         Me.Label3.Text = "phone"
         '
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(204, 195)
+        Me.Label4.Location = New System.Drawing.Point(163, 156)
+        Me.Label4.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(112, 25)
+        Me.Label4.Size = New System.Drawing.Size(93, 20)
         Me.Label4.TabIndex = 6
         Me.Label4.Text = "userLocation"
         '
         'loan_amount
         '
-        Me.loan_amount.Location = New System.Drawing.Point(327, 251)
+        Me.loan_amount.Location = New System.Drawing.Point(262, 201)
+        Me.loan_amount.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.loan_amount.Name = "loan_amount"
-        Me.loan_amount.Size = New System.Drawing.Size(150, 31)
+        Me.loan_amount.Size = New System.Drawing.Size(121, 27)
         Me.loan_amount.TabIndex = 7
         '
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(191, 251)
+        Me.Label5.Location = New System.Drawing.Point(153, 201)
+        Me.Label5.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(113, 25)
+        Me.Label5.Size = New System.Drawing.Size(93, 20)
         Me.Label5.TabIndex = 8
         Me.Label5.Text = "loan amount"
         '
         'Label6
         '
         Me.Label6.AutoSize = True
-        Me.Label6.Location = New System.Drawing.Point(204, 311)
+        Me.Label6.Location = New System.Drawing.Point(163, 249)
+        Me.Label6.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(100, 25)
+        Me.Label6.Size = New System.Drawing.Size(83, 20)
         Me.Label6.TabIndex = 9
         Me.Label6.Text = "occupation"
         '
         'occupation
         '
-        Me.occupation.Location = New System.Drawing.Point(329, 305)
+        Me.occupation.Location = New System.Drawing.Point(263, 244)
+        Me.occupation.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.occupation.Name = "occupation"
-        Me.occupation.Size = New System.Drawing.Size(150, 31)
+        Me.occupation.Size = New System.Drawing.Size(121, 27)
         Me.occupation.TabIndex = 10
         '
         'addBtn
         '
-        Me.addBtn.Location = New System.Drawing.Point(332, 372)
+        Me.addBtn.Location = New System.Drawing.Point(266, 298)
+        Me.addBtn.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.addBtn.Name = "addBtn"
-        Me.addBtn.Size = New System.Drawing.Size(112, 34)
+        Me.addBtn.Size = New System.Drawing.Size(90, 27)
         Me.addBtn.TabIndex = 11
         Me.addBtn.Text = "Add Customer"
         Me.addBtn.UseVisualStyleBackColor = True
         '
         'custId
         '
-        Me.custId.Location = New System.Drawing.Point(328, 60)
+        Me.custId.Location = New System.Drawing.Point(262, 48)
+        Me.custId.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.custId.Name = "custId"
-        Me.custId.Size = New System.Drawing.Size(150, 31)
+        Me.custId.Size = New System.Drawing.Size(121, 27)
         Me.custId.TabIndex = 12
         '
         'Label7
         '
         Me.Label7.AutoSize = True
-        Me.Label7.Location = New System.Drawing.Point(253, 54)
+        Me.Label7.Location = New System.Drawing.Point(202, 43)
+        Me.Label7.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(30, 25)
+        Me.Label7.Size = New System.Drawing.Size(24, 20)
         Me.Label7.TabIndex = 13
         Me.Label7.Text = "ID"
         '
         'AddCustomers
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(10.0!, 25.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(800, 499)
+        Me.ClientSize = New System.Drawing.Size(640, 399)
         Me.Controls.Add(Me.Label7)
         Me.Controls.Add(Me.custId)
         Me.Controls.Add(Me.addBtn)
@@ -171,6 +185,7 @@ Partial Class AddCustomers
         Me.Controls.Add(Me.phone)
         Me.Controls.Add(Me.username)
         Me.Controls.Add(Me.Label1)
+        Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.Name = "AddCustomers"
         Me.Text = "AddCustomers"
         Me.ResumeLayout(False)
