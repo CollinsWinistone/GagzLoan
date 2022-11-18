@@ -13,7 +13,7 @@ Public Class Form1
         sda.Fill(dt)
 
         If (dt.Rows.Count > 0) Then
-            MsgBox("success")
+            MsgBox("successful login")
             Me.Hide()
             AddCustomers.Show()
         Else
